@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "UnifiedWalletGateway_backend": {
+      "main": "src/UnifiedWalletGateway_backend/main.mo",
+      "type": "motoko"
+    },
+    "UnifiedWalletGateway_frontend": {
+      "dependencies": [
+        "UnifiedWalletGateway_backend"
+      ],
+      "source": [
+        "src/UnifiedWalletGateway_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "UnifiedWalletGateway_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

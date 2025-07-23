@@ -1,0 +1,59 @@
+.exchange-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.exchange-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.exchange-content h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.exchange-content label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.exchange-content input,
+.exchange-content select {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.exchange-content button {
+  width: 48%;
+  padding: 10px;
+  margin: 5px 1%;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.exchange-content button:last-child {
+  background-color: #f44336;
+}
+
+.message {
+  color: #f44336;
+  text-align: center;
+  margin-top: 15px;
+}
